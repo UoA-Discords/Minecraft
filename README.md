@@ -360,6 +360,7 @@ max-world-size=29999984
 
 - Automated whitelist application submitting via Discord bot.
 - Update website.
+- Faculty-based teams, joinable at worldspawn.
 
 ### Links
 
