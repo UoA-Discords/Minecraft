@@ -355,6 +355,7 @@ max-world-size=29999984
 ### Timeline
 
 - 19/6/23 Created server.
+- 25/6/23 Temporarily disabled treasure maps due to an ongoing bug with them ([MC-218156](https://bugs.mojang.com/browse/MC-218156), read more [here](https://paper-chan.moe/paper-optimization/)).
 
 ### Roadmap
 
