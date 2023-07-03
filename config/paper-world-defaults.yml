@@ -75,7 +75,7 @@ collisions:
 entities:
     armor-stands:
         do-collision-entity-lookups: false
-        tick: false
+        tick: true
     behavior:
         allow-spider-world-border-climbing: true
         baby-zombie-movement-modifier: 0.5

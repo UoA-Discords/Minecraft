@@ -356,6 +356,7 @@ max-world-size=29999984
 
 - 19/6/23 Created server.
 - 25/6/23 Temporarily disabled treasure maps due to an ongoing bug with them ([MC-218156](https://bugs.mojang.com/browse/MC-218156), read more [here](https://paper-chan.moe/paper-optimization/)).
+- 3/7/23 Restarted to update `paper-world-defaults.yml`, setting `entities.armor-stands.tick` to `true` following [the suggestion poll](https://discord.com/channels/814384895530106933/814404402365857792/1124239644104605717).
 
 ### Roadmap
 
