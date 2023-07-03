@@ -270,7 +270,7 @@ _Managed by LuckPerms, all permissions pertain to the "default" group._
             <td>true</td>
         </tr>
         <tr>
-            <td>gwarp.homeamount.2</td>
+            <td>gwarp.homeamount.4</td>
             <td>true</td>
         </tr>
         <tr>
