@@ -117,7 +117,7 @@ timings:
 unsupported-settings:
     allow-grindstone-overstacking: false
     allow-headless-pistons: false
-    allow-permanent-block-break-exploits: false
+    allow-permanent-block-break-exploits: true
     allow-piston-duplication: false
     perform-username-validation: true
 watchdog:
