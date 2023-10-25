@@ -359,6 +359,7 @@ max-world-size=29999984
 - 3/7/23 Restarted to update [paper-world-defaults.yml](config/paper-world-defaults.yml), setting `entities.armor-stands.tick` to `true` following [the suggestion poll](https://discord.com/channels/814384895530106933/814404402365857792/1124239644104605717).
 - 9/7/23 Restarted to update [paper-global.yml](config/paper-global.yml), setting `allow-permanent-block-break-exploits` to `true` following [the suggestion poll](https://discord.com/channels/814384895530106933/814404402365857792/1126758311463751721).
 - 14/7/23 Restarted to update [paper-world-defaults.yml](config/paper-world-defaults.yml), setting `fixes.disable-unloaded-chunk-enderpearl-exploit` to `false` following [the suggestion poll](https://discord.com/channels/814384895530106933/814404402365857792/1128504991984918528).
+- 26/10/23 Restarted to update server to Minecraft 1.20.2
 
 ### Roadmap
 
