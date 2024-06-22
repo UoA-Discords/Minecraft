@@ -7,16 +7,18 @@ For information about the previous server, see [archive.md](./ARCHIVE.md).
 ## Table of Contents <!-- omit in toc -->
 
 - [Datapacks](#datapacks)
-- [Plugins](#plugins)
+- [Mods](#mods)
 - [Gamerules](#gamerules)
 - [Scoreboard Objectives](#scoreboard-objectives)
 - [Permissions](#permissions)
-- [Properties](#properties)
 - [Timeline](#timeline)
 - [Roadmap](#roadmap)
 - [Links](#links)
 
 ### Datapacks
+
+> [!IMPORTANT]
+> None of these Vanilla Tweaks datapacks are active yet, as they haven't been released for 1.12.
 
 <table>
     <thead>
@@ -74,7 +76,10 @@ For information about the previous server, see [archive.md](./ARCHIVE.md).
     </tbody>
 </table>
 
-### Plugins
+### Mods
+
+> [!NOTE]
+> Full documentation of all mods is a WIP, this list is incomplete.
 
 <table>
     <thead>
@@ -91,72 +96,21 @@ For information about the previous server, see [archive.md](./ARCHIVE.md).
     </thead>
     <tbody>
         <tr>
-            <td>GWarp</td>
-            <td>2.23.0.2</td>
-            <td>Public teleport locations ("warps").</td>
-            <td>19/6/23</td>
-            <td>19/6/23</td>
-            <td><a href="https://www.spigotmc.org/resources/gwarp-warp-home-plugin-1-7-1-20.56824/">Spigot</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>TabTPS</td>
-            <td>1.3.17</td>
-            <td>Performance and latency stats in tab menu.</td>
-            <td>19/6/23</td>
-            <td>19/6/23</td>
-            <td><a href="https://www.spigotmc.org/resources/tabtps-1-8-8-1-19-4-show-tps-mspt-and-more-in-the-tab-menu.82528/">Spigot</a> <a href="https://github.com/jpenilla/TabTPS/">GitHub</a></td>
-            <td>Not rated for 1.20.</td>
-        </tr>
-        <tr>
-            <td>Simple Tpa</td>
-            <td>6.4</td>
-            <td>Send teleport requests to other players.</td>
-            <td>19/6/23</td>
-            <td>19/6/23</td>
-            <td><a href="https://www.spigotmc.org/resources/simple-tpa.64270/">Spigot</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>DiscordSRV</td>
-            <td>1.26.2</td>
-            <td>Show Minecraft chat in Discord channel and vice-versa.</td>
-            <td>19/6/23</td>
-            <td>19/6/23</td>
-            <td><a href="https://www.spigotmc.org/resources/discordsrv.18494/">Spigot</a> <a href="https://github.com/DiscordSRV/DiscordSRV/">GitHub</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Server Backup</td>
-            <td>2.9.6</td>
-            <td>Schedule world backups.</td>
-            <td>19/6/23</td>
-            <td>19/6/23</td>
-            <td><a href="https://www.spigotmc.org/resources/server-backup-ingame-dropbox-ftp-backup-1-8-1-20-multithreaded.79320/">Spigot</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>LuckPerms</td>
-            <td>5.4.89</td>
-            <td>Manage plugin permissions.</td>
-            <td>19/6/23</td>
-            <td>19/6/23</td>
-            <td><a href="https://luckperms.net/">Website</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>GriefPrevention</td>
-            <td>16.18.1</td>
-            <td>Solid plot/claims system.</td>
-            <td>19/6/23</td>
-            <td>19/6/23</td>
-            <td><a href="https://www.spigotmc.org/resources/griefprevention.1884/">Spigot</a> <a href="https://github.com/TechFortress/GriefPrevention/">GitHub</a></td>
-            <td>Not rated for 1.20.</td>
+            <td>AdvancedBackups</td>
+            <td>3.6</td>
+            <td>Routine world backups.</td>
+            <td>22/6/23</td>
+            <td>22/6/23</td>
+            <td><a href="https://modrinth.com/plugin/advanced-backups">Modrinth</a></td>
+            <td>Untestes</td>
         </tr>
     </tbody>
 </table>
 
 ### Gamerules
+
+> [!NOTE]
+> Many of these gamerules are transferred over from the previous server.
 
 <table>
     <thead>
@@ -266,106 +220,43 @@ _Managed by LuckPerms, all permissions pertain to the "default" group._
     </thead>
     <tbody>
         <tr>
-            <td>bukkit.command.tps</td>
-            <td>true</td>
-        </tr>
-        <tr>
-            <td>gwarp.homeamount.4</td>
-            <td>true</td>
-        </tr>
-        <tr>
-            <td>gwarp.warpset</td>
-            <td>false</td>
-        </tr>
-        <tr>
-            <td>tabtps.ping</td>
-            <td>true</td>
-        </tr>
-        <tr>
-            <td>tabtps.ping.others</td>
+            <td>tabtps.defaultdisplay</td>
             <td>true</td>
         </tr>
     </tbody>
 </table>
 
-### Properties
-
-```properties
-#Minecraft server properties
-#Mon Jun 19 17:45:40 NZST 2023
-enable-jmx-monitoring=false
-rcon.port=25575
-level-seed=
-gamemode=survival
-enable-command-block=true
-enable-query=true
-generator-settings={}
-enforce-secure-profile=true
-level-name=world
-motd=\u00A7bUniversity of Auckland\u00A7e (Unofficial) \u00A72Minecraft Server\u00A7r\n\u00A7dNow on 1.20.1 \u00A76nachotoast.com/mc
-query.port=25565
-pvp=true
-generate-structures=true
-max-chained-neighbor-updates=1000000
-difficulty=hard
-network-compression-threshold=256
-max-tick-time=60000
-require-resource-pack=false
-use-native-transport=true
-max-players=100
-online-mode=true
-enable-status=true
-allow-flight=false
-initial-disabled-packs=
-broadcast-rcon-to-ops=true
-view-distance=10
-server-ip=
-resource-pack-prompt=
-allow-nether=true
-server-port=25565
-enable-rcon=true
-sync-chunk-writes=true
-op-permission-level=4
-prevent-proxy-connections=false
-hide-online-players=false
-resource-pack=
-entity-broadcast-range-percentage=100
-simulation-distance=8
-rcon.password=[REDACTED]
-player-idle-timeout=0
-debug=false
-force-gamemode=false
-rate-limit=0
-hardcore=false
-white-list=true
-broadcast-console-to-ops=true
-spawn-npcs=true
-spawn-animals=true
-function-permission-level=2
-initial-enabled-packs=vanilla
-level-type=minecraft\:normal
-text-filtering-config=
-spawn-monsters=true
-enforce-whitelist=false
-spawn-protection=0
-resource-pack-sha1=
-max-world-size=29999984
-```
 
 ### Timeline
 
-- 19/6/23 Created server.
+<details open>
+
+<summary>Previous Server Timeline</summary>
+
+- 19/6/23 Created server (Paper).
+
 - 25/6/23 Temporarily disabled treasure maps due to an ongoing bug with them ([MC-218156](https://bugs.mojang.com/browse/MC-218156), read more [here](https://paper-chan.moe/paper-optimization/)).
+
 - 3/7/23 Restarted to update [paper-world-defaults.yml](config/paper-world-defaults.yml), setting `entities.armor-stands.tick` to `true` following [the suggestion poll](https://discord.com/channels/814384895530106933/814404402365857792/1124239644104605717).
+
 - 9/7/23 Restarted to update [paper-global.yml](config/paper-global.yml), setting `allow-permanent-block-break-exploits` to `true` following [the suggestion poll](https://discord.com/channels/814384895530106933/814404402365857792/1126758311463751721).
+
 - 14/7/23 Restarted to update [paper-world-defaults.yml](config/paper-world-defaults.yml), setting `fixes.disable-unloaded-chunk-enderpearl-exploit` to `false` following [the suggestion poll](https://discord.com/channels/814384895530106933/814404402365857792/1128504991984918528).
+
 - 26/10/23 Restarted to update server to Minecraft 1.20.2
+
+</details>
+
+- 21/06/24 Created server (1.20.1, Fabric)
+
+- 22/6/24 Finished setup of all mods.
 
 ### Roadmap
 
 - Automated whitelist application submitting via Discord bot.
 - Update website.
 - Faculty-based teams, joinable at worldspawn.
+- Spawn area(s).
 
 ### Links
 
