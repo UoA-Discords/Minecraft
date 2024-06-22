@@ -158,12 +158,6 @@ For information about the previous server, see [archive.md](./ARCHIVE.md).
             <td>19/6/23</td>
             <td>Just seems like a fair value.</td>
         <tr>
-        <tr>
-            <td>showDeathMessages</td>
-            <td>false</td>
-            <td>22/6/24</td>
-            <td>Y'all die too much.</td>
-        <tr>
     </tbody>
 </table>
 
