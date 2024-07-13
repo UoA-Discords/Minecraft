@@ -1,7 +1,7 @@
 {
     "teleportation": null,
     "standStill": 3,
-    "cooldown": 30,
+    "cooldown": 10,
     "defaultHome": "main",
     "startHomes": 4,
     "dimensionBlacklist": [],

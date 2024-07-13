@@ -2,5 +2,5 @@
   "teleportation": null,
   "timeout": 60,
   "standStill": 3,
-  "cooldown": 30
+  "cooldown": 10
 }
