@@ -115,15 +115,6 @@ Information and other metadata about the UoA Discords Minecraft server!
     </thead>
     <tbody>
         <tr>
-            <td>Amplified Nether</td>
-            <td>1.2.8</td>
-            <td>Increases the Nether height to 256 blocks tall.</td>
-            <td>22/6/24</td>
-            <td>18/4/25</td>
-            <td><a href="https://modrinth.com/mod/amplified-nether">Modrinth</a></td>
-            <td></td>
-        </tr>
-        <tr>
             <td>Anti Xray</td>
             <td>1.4.9</td>
             <td>Prevents X-ray resource packs from working.</td>
