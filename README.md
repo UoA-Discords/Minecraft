@@ -555,7 +555,9 @@ _Managed by LuckPerms, all permissions pertain to the "default" group._
 
 ### Timeline
 
-- 18/4/24 - Created server (1.21.5, Fabric).
+- 21/4/25 - Finished setup of all mods.
+
+- 18/4/25 - Created server (1.21.5, Fabric).
 
 <details open>
 
@@ -589,10 +591,8 @@ _Managed by LuckPerms, all permissions pertain to the "default" group._
 
 ### Roadmap
 
-- Automated whitelist application submitting via Discord bot.
 - Update website.
 - Faculty-based teams, joinable at worldspawn.
-- Spawn area(s).
 
 ### Links
 
