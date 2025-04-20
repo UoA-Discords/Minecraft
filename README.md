@@ -357,6 +357,15 @@ Information and other metadata about the UoA Discords Minecraft server!
             <td><a href="https://modrinth.com/mod/architectury-api">Modrinth</a></td>
             <td></td>
         </tr>
+        <tr>
+            <td>Get Off My Lawn ReServed</td>
+            <td>1.16.0</td>
+            <td>Claims plugin.</td>
+            <td>21/4/25</td>
+            <td>21/4/25</td>
+            <td><a href="https://modrinth.com/mod/goml-reserved">Modrinth</a></td>
+            <td></td>
+        </tr>
     </tbody>
 </table>
 
