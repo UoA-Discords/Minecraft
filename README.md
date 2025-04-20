@@ -484,6 +484,12 @@ Information and other metadata about the UoA Discords Minecraft server!
             <td>18/4/25</td>
             <td>Performance reasons.</td>
         </tr>
+        <tr>
+            <td>spectatorsGenerateChunks</td>
+            <td>false</td>
+            <td>21/4/25</td>
+            <td>Performance reasons.</td>
+        </tr>
     </tbody>
 </table>
 
