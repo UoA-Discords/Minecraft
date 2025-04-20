@@ -16,6 +16,10 @@ Information and other metadata about the UoA Discords Minecraft server!
 
 ### Datapacks
 
+<!--
+    MARK: Datapacks
+-->
+
 <table>
     <thead>
         <tr>
@@ -97,6 +101,10 @@ Information and other metadata about the UoA Discords Minecraft server!
 </table>
 
 ### Mods
+
+<!--
+    MARK: Mods
+-->
 
 > [!NOTE]
 > While none of these mods are required to play on the server, mods with a "Client Needed" note will only work if you also have them installed.
@@ -371,6 +379,10 @@ Information and other metadata about the UoA Discords Minecraft server!
 
 ### Mods (Inactive)
 
+<!--
+    MARK: Mods (Inactive)
+-->
+
 > [!NOTE]
 > These are previously-used mods that are waiting on an update or fix to be re-enabled.
 
@@ -428,6 +440,10 @@ Information and other metadata about the UoA Discords Minecraft server!
 
 
 ### Gamerules
+
+<!--
+    MARK: Gamerules
+-->
 
 > [!NOTE]
 > Many of these gamerules are transferred over from the previous server.
@@ -495,6 +511,10 @@ Information and other metadata about the UoA Discords Minecraft server!
 
 ### Scoreboard Objectives
 
+<!--
+    MARK: Scoreboard
+-->
+
 <table>
     <thead>
         <tr>
@@ -541,6 +561,10 @@ Information and other metadata about the UoA Discords Minecraft server!
 
 ### Permissions
 
+<!--
+    MARK: Permissions
+-->
+
 _Managed by LuckPerms, all permissions pertain to the "default" group._
 
 <table>
@@ -560,6 +584,10 @@ _Managed by LuckPerms, all permissions pertain to the "default" group._
 
 
 ### Timeline
+
+<!--
+    MARK: Timeline
+-->
 
 - 21/4/25 - Finished setup of all mods.
 
