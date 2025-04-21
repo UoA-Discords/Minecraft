@@ -382,6 +382,15 @@ Information and other metadata about the UoA Discords Minecraft server!
             <td><a href="https://modrinth.com/mod/goml-reserved">Modrinth</a></td>
             <td></td>
         </tr>
+        <tr>
+            <td>Leukocyte</td>
+            <td>0.3.12</td>
+            <td>Area protection plugin (for admin use, unlike GOML).</td>
+            <td>21/4/25</td>
+            <td>21/4/25</td>
+            <td><a href="https://modrinth.com/mod/leukocyte">Modrinth</a></td>
+            <td></td>
+        </tr>
     </tbody>
 </table>
 
