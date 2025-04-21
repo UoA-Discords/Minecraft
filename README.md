@@ -97,6 +97,14 @@ Information and other metadata about the UoA Discords Minecraft server!
             <td>18/4/25</td>
             <td>New.</td>
         </tr>
+        <tr>
+            <td>[<a href="https://vanillatweaks.net/picker/datapacks/">Vanilla Tweaks</a>] Anti Enderman Grief</td>
+            <td>1.1.11</td>
+            <td>Prevents enderman from picking up blocks.</td>
+            <td>21/4/25</td>
+            <td>21/4/25</td>
+            <td>New.</td>
+        </tr>
     </tbody>
 </table>
 
