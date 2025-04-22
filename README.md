@@ -391,6 +391,33 @@ Information and other metadata about the UoA Discords Minecraft server!
             <td><a href="https://modrinth.com/mod/leukocyte">Modrinth</a></td>
             <td></td>
         </tr>
+        <tr>
+            <td>Distant Horizons</td>
+            <td>2.3.2</td>
+            <td>View distance modification plugin.</td>
+            <td>23/4/25</td>
+            <td>23/4/25</td>
+            <td><a href="https://modrinth.com/mod/distanthorizons">Modrinth</a></td>
+            <td>Client needed.</td>
+        </tr>
+        <tr>
+            <td>Styled Nicknames</td>
+            <td>1.8.0</td>
+            <td>Custom nicknames.</td>
+            <td>23/4/25</td>
+            <td>23/4/25</td>
+            <td><a href="https://modrinth.com/mod/styled-nicknames">Modrinth</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>NoCreeperDamage</td>
+            <td>1.0</td>
+            <td>Prevents creepers from destroying blocks, but keeps their explosion damage to entities.</td>
+            <td>23/4/25</td>
+            <td>23/4/25</td>
+            <td><a href="https://modrinth.com/mod/nocreeperdamage">Modrinth</a></td>
+            <td></td>
+        </tr>
     </tbody>
 </table>
 
@@ -523,6 +550,12 @@ Information and other metadata about the UoA Discords Minecraft server!
             <td>21/4/25</td>
             <td>Performance reasons.</td>
         </tr>
+        <tr>
+            <td>creeperBlockDamage<td>
+            <td>false</td>
+            <td>23/4/25</td>
+            <td>Added by the "NoCreeperDamage" mod.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -605,6 +638,8 @@ _Managed by LuckPerms, all permissions pertain to the "default" group._
 <!--
     MARK: Timeline
 -->
+
+- 23/4/25 - Added Distant Horizons, Styled Nicknames, and NoCreeperDamage. Default view distance reduced from 12 to 10 chunks (default) for performance reasons.
 
 - 21/4/25 - Finished setup of all mods.
 
