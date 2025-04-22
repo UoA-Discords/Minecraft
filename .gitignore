@@ -2,3 +2,7 @@
 translations/
 libs/
 userdata/
+
+# probably fine since they're just public keys but not really much use having
+# them in the repo anyways
+config/luckperms/editor-keystore.json
