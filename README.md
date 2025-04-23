@@ -551,7 +551,7 @@ Information and other metadata about the UoA Discords Minecraft server!
             <td>Performance reasons.</td>
         </tr>
         <tr>
-            <td>creeperBlockDamage<td>
+            <td>creeperBlockDamage</td>
             <td>false</td>
             <td>23/4/25</td>
             <td>Added by the "NoCreeperDamage" mod.</td>
