@@ -214,7 +214,7 @@ IMC_modIdBlacklist = [  "examplemod"  ]
   # Should discord linking be enabled?
   # If whitelist is on, this can NOT be disabled
   # DOES NOT WORK IN OFFLINE MODE!
-  enableLinking = false
+  enableLinking = true
   # Set Discord nicknames to match Minecraft usernames when linked
   shouldNickname = false
   # Enable global linking?

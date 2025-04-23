@@ -418,6 +418,15 @@ Information and other metadata about the UoA Discords Minecraft server!
             <td><a href="https://modrinth.com/mod/nocreeperdamage">Modrinth</a></td>
             <td></td>
         </tr>
+        <tr>
+            <td>Discord Integration</td>
+            <td>3.1.0.1</td>
+            <td>Shared Discord and Minecraft chat channels.</td>
+            <td>22/6/24</td>
+            <td>23/4/25</td>
+            <td><a href="https://modrinth.com/plugin/dcintegration">Modrinth</a></td>
+            <td></td>
+        </tr>
     </tbody>
 </table>
 
@@ -469,15 +478,6 @@ Information and other metadata about the UoA Discords Minecraft server!
             <td>22/6/24</td>
             <td><a href="https://modrinth.com/mod/modernfix">Modrinth</a></td>
             <td>Experimental.</td>
-        </tr>
-        <tr>
-            <td>Discord Integration</td>
-            <td>3.1.0</td>
-            <td>Shared Discord and Minecraft chat channels.</td>
-            <td>22/6/24</td>
-            <td>18/4/25</td>
-            <td><a href="https://modrinth.com/plugin/dcintegration">Modrinth</a></td>
-            <td>Currently not working, tracked via <a href="https://github.com/ErdbeerbaerLP/DiscordIntegration/issues/15">this issue</a>.</td>
         </tr>
     </tbody>
 </table>
