@@ -105,6 +105,14 @@ Information and other metadata about the UoA Discords Minecraft server!
             <td>21/4/25</td>
             <td>New.</td>
         </tr>
+        <tr>
+            <td>[<a href="https://vanillatweaks.net/picker/datapacks/">Vanilla Tweaks</a>] Silence Mobs</td>
+            <td>1.2.5</td>
+            <td>Silence mobs by naming them "Silence me", "silence me", or "silence_me".</td>
+            <td>22/5/25</td>
+            <td>22/5/25</td>
+            <td>New.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -638,6 +646,8 @@ _Managed by LuckPerms, all permissions pertain to the "default" group._
 <!--
     MARK: Timeline
 -->
+
+- 22/5/25 - Restarted to update some Discord integration settings and add the "Silence Mods" datapack following a suggestion.
 
 - 23/4/25 - Added Distant Horizons, Styled Nicknames, and NoCreeperDamage. Default view distance reduced from 12 to 10 chunks (default) for performance reasons.
 

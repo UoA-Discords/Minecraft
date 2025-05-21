@@ -1,3 +1,37 @@
+# Main configuration file for Discord Integration
+# 
+# If you have no idea what to do here, check out https://erdbeerbaerlp.de/projects/discord-integration/quick-setup
+# 
+# 
+# ## Other configuration files ##
+# File paths are based on the server root directory, the same folder the server jar file resides in, NOT the config folder.
+# 
+# Localizations   ==> /DiscordIntegration-Data/Messages.toml
+# Custom Commands ==> /DiscordIntegration-Data/Commands.toml
+# Addon Configs   ==> /DiscordIntegration-Data/addons/*.toml
+# Player link DB  ==> /DiscordIntegration-Data/LinkedPlayers.json
+# 
+# 
+#          # #                   # #        
+#        # #     # # # # # # #     # #      
+#      # # # # # # # # # # # # # # # # #    
+#      # # # # # # # # # # # # # # # # #    
+#      # # # # # # # # # # # # # # # # #    
+#    # # # # # # # # # # # # # # # # # # #  
+#    # # # # # # # # # # # # # # # # # # #  
+#    # # # # #     # # # # #     # # # # #  
+#    # # # #         # # #         # # # #  
+#  # # # # #         # # #         # # # # #
+#  # # # # # #     # # # # #     # # # # # #
+#  # # # # # # # # # # # # # # # # # # # # #
+#  # # # # # # # # # # # # # # # # # # # # #
+#  # # # # #     # # # # # # #     # # # # #
+#      # # # #                   # # # #    
+#        # # # #               # # # #
+# 
+# 
+# 
+# 
 # General options for the bot
 [general]
   # Insert your Bot Token here!
@@ -40,16 +74,13 @@
   ignoreFileSource = false
   # Set to true to allow relaying webhook messages
   allowWebhookMessages = false
-  # Set to false to disable automatic config tweaking to fix known issues
-  # Your config file will not be sent anywhere during this
-  # This feature is not implemented yet
-  allowAutomaticBugFixing = true
 # Some settings that can be tweaked to increase compatibility with other mods, if required
 [compatibility]
   # Disables modifying sent chat messages in-game to show who was pinged. (Will not convert <@1234567890> to @User)
   # This may fix mods also modifying sent messages
   disableParsingMentionsIngame = false
 # Configuration options for commands
+# NOTE: Custom commands have been moved to /DiscordIntegration-Data/Commands.toml
 [commands]
   # Toggle the entire command feature
   # Disabling this will disable registering any commands to discord
@@ -57,8 +88,6 @@
   # The Role IDs of your Admin Roles
   # Now supports multiple roles which can access admin commands
 adminRoleIDs = [  "928582997924515900", "858200168322695228"  ]
-  # Add your custom commands here
-  # You can also generate some on https://erdbeerbaerlp.de/dcintegration-commands/
   # Enable the list command in discord
   listCmdEnabled = true
   # Show list command only for the user who runs it
@@ -71,24 +100,6 @@ adminRoleIDs = [  "928582997924515900", "858200168322695228"  ]
   # Local Commands will register all slash commands directly to the server instead of to the bot
   # Setting this to true requires the bot to be invited with the scope 'application.commands' to work
   useLocalCommands = false
-
-    [[commands.customCommands]]
-      name = "kick"
-      description = "Kicks an player from the Server"
-      mcCommand = "kick %player% %reason%"
-      textToSend = ""
-      adminOnly = true
-      hidden = false
-
-        [[commands.customCommands.args]]
-          name = "player"
-          description = "The player to be kicked"
-          optional = false
-
-        [[commands.customCommands.args]]
-          name = "reason"
-          description = "Reason for the kick"
-          optional = true
 # Toggle some message related features
 [messages]
   # Changing this to an language key (like en-US, de-DE) will always attempt to download the latest language file from https://github.com/ErdbeerbaerLP/Discord-Integration-Translations
@@ -122,7 +133,7 @@ charBlacklist = [  "࿕", "࿖"  ]
       asEmbed = true
       # Color of embed bar
       colorHexCode = "#57f287"
-      # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://github.com/ErdbeerbaerLP/DiscordIntegration-Core/wiki/embed-mode or ask on discord.
+      # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://wiki.erdbeerbaerlp.de/dcintegration:custom-embeds or ask on discord.
       customJSON = ""
 
     # Stop & Crash Messages
@@ -131,7 +142,7 @@ charBlacklist = [  "࿕", "࿖"  ]
       asEmbed = true
       # Color of embed bar
       colorHexCode = "#ed4245"
-      # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://github.com/ErdbeerbaerLP/DiscordIntegration-Core/wiki/embed-mode or ask on discord.
+      # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://wiki.erdbeerbaerlp.de/dcintegration:custom-embeds or ask on discord.
       customJSON = ""
 
     # Player join message
@@ -140,7 +151,7 @@ charBlacklist = [  "࿕", "࿖"  ]
       asEmbed = true
       # Color of embed bar
       colorHexCode = "#57f287"
-      # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://github.com/ErdbeerbaerLP/DiscordIntegration-Core/wiki/embed-mode or ask on discord.
+      # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://wiki.erdbeerbaerlp.de/dcintegration:custom-embeds or ask on discord.
       customJSON = ""
 
     # Player leave messages
@@ -150,7 +161,7 @@ charBlacklist = [  "࿕", "࿖"  ]
       asEmbed = true
       # Color of embed bar
       colorHexCode = "#ed4245"
-      # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://github.com/ErdbeerbaerLP/DiscordIntegration-Core/wiki/embed-mode or ask on discord.
+      # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://wiki.erdbeerbaerlp.de/dcintegration:custom-embeds or ask on discord.
       customJSON = ""
 
     # Player Death message
@@ -159,7 +170,7 @@ charBlacklist = [  "࿕", "࿖"  ]
       asEmbed = true
       # Color of embed bar
       colorHexCode = "#000000"
-      # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://github.com/ErdbeerbaerLP/DiscordIntegration-Core/wiki/embed-mode or ask on discord.
+      # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://wiki.erdbeerbaerlp.de/dcintegration:custom-embeds or ask on discord.
       customJSON = ""
 
     # Advancement messages
@@ -168,7 +179,7 @@ charBlacklist = [  "࿕", "࿖"  ]
       asEmbed = true
       # Color of embed bar
       colorHexCode = "#fee75c"
-      # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://github.com/ErdbeerbaerLP/DiscordIntegration-Core/wiki/embed-mode or ask on discord.
+      # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://wiki.erdbeerbaerlp.de/dcintegration:custom-embeds or ask on discord.
       customJSON = ""
 
     # Player chat messages
@@ -179,7 +190,7 @@ charBlacklist = [  "࿕", "࿖"  ]
       asEmbed = false
       # Color of embed bar
       colorHexCode = "#808080"
-      # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://github.com/ErdbeerbaerLP/DiscordIntegration-Core/wiki/embed-mode or ask on discord.
+      # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://wiki.erdbeerbaerlp.de/dcintegration:custom-embeds or ask on discord.
       customJSON = ""
 # Advanced options
 [advanced]
@@ -189,6 +200,9 @@ charBlacklist = [  "࿕", "࿖"  ]
   # Custom channel ID for death messages
   # Leave 'default' to use default channel
   deathsChannelID = "default"
+  # Custom channel ID for advancement messages
+  # Leave 'default' to use default channel
+  advancementChannelID = "default"
   # Custom channel for for in-game messages
   # Leave 'default' to use default channel
   chatOutputChannelID = "default"
@@ -198,6 +212,9 @@ charBlacklist = [  "࿕", "࿖"  ]
   # Allows you to change the target URL for the API to make it usable with custom discord instances like Spacebar
   # DO NOT CHANGE if you don't know what you are doing!!
   baseAPIUrl = "https://discord.com"
+  # Delay of sending webhook messages ingame in milliseconds
+  # If you get duplicate messages in webhook mode, increase this value a bit
+  webhookMessageDelay = 200
 # Config options which usually only have an effect when using forge
 # sendItemInfo was ported to fabric but kept here for config compatibility
 [forgeSpecific]
@@ -265,8 +282,13 @@ settingsBlacklist = [    ]
   # %name% - Returns the player's name
   # %randomUUID% - Returns an random UUID which can be used to prevent discord cache
   # https://www.tydiumcraft.net/docs/skinapi supports both bedrock(floodgate) and java players
-  # Default - https://api.tydiumcraft.net/v1/players/skin?uuid=%uuid%&type=avatar&randomuuid=%randomUUID%
+  # Default - https://starlightskins.lunareclipse.studio/render/pixel/%name%/face?randomuuid=%randomUUID%
   playerAvatarURL = "https://api.tydiumcraft.net/v1/players/skin?uuid=%uuid%&type=avatar&randomuuid=%randomUUID%"
+  # Should the avatar url be tested periodically?
+  # If enabled, should the avatar url be down, it will use the fallback one until it comes back
+  testAvatarURL = true
+  # Alternative avatar URL used when main URL is not reachable
+  fallbackAvatarURL = "https://minotar.net/avatar/%uuid%?randomuuid=%randomUUID%"
   webhookName = "MC_DC_INTEGRATION"
 # Configuration for the in-game command '/discord'
 [ingameCommand]
@@ -291,9 +313,9 @@ settingsBlacklist = [    ]
   # %cmd-no-args% - Command without arguments (e.g. "say"
   message = "%sender% executed command `%cmd%`"
   # A list of commands that should NOT be logged
-ignoredCommands = [  "list", "help", "?"  ]
+ignoredCommands = []
   # Invert the meaning of the ignoredCommands configuration (make it ONLY log those commands)
-  commandWhitelist = false
+  commandWhitelist = true
 # Configure votifier integration here
 # (Spigot only)
 [votifier]
